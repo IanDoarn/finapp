@@ -1,7 +1,6 @@
 from django.urls import path
-from . import views
 
-print("Loading polls URLs")  # Debug print
+from . import views
 
 urlpatterns = [
     path("", views.index, name="index"),
